@@ -33,6 +33,6 @@ class SeriesFormRequest extends FormRequest
         return[
             'required' => 'o campo :attribute é obrigatório',
             'nome.min' => 'preencha com pelo menos 2 caracteres'
-        ]
+        ];
     }
 }
